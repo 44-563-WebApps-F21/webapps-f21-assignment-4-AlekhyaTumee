@@ -41,11 +41,21 @@
     padding:20px;
   
   }
-  tr:nth-child(even){
+tr:nth-child(even){
       background-color: chartreuse;
   }
-  .name:hover{
+.name:hover{
     text-shadow :2px 2px cyan;
     border-style: double;
     border-color: wheat;
+}
+.navbar-horizontal li{
+    float:left;
+    color: black;
+    border: 1px solid black;
+    
+}
+.navbar-horizontal a{
+    display:block;
+    padding:8px;
 }
