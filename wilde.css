@@ -28,3 +28,19 @@
     color: maroon;
   
 }
+.table{
+    border: crimson;
+    border-style: solid;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+.data{
+    border: black;
+    border-style: dotted;
+    padding:20px;
+  
+  }
+  tr:nth-child(even){
+      background-color: chartreuse;
+  }
