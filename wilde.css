@@ -44,3 +44,8 @@
   tr:nth-child(even){
       background-color: chartreuse;
   }
+  .name:hover{
+    text-shadow :2px 2px cyan;
+    border-style: double;
+    border-color: wheat;
+}
